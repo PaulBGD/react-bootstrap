@@ -20,9 +20,9 @@
     "docs-prod": "npm run docs-build && NODE_ENV=production babel-node docs/server.js",
     "docs-prod-unoptimized": "npm run docs-build -- --dev && NODE_ENV=production babel-node docs/server.js"
   },
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "directories": {
-    "lib": "lib/"
+    "src": "src/"
   },
   "files": [
     "CHANGELOG.md",
